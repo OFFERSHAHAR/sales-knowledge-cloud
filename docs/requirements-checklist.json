@@ -1,0 +1,1016 @@
+{
+  "timestamp": "2026-10-04T20:21:34.116473",
+  "source": "Final project assignment AI solution .pdf",
+  "submitter": "עופר",
+  "testCount": 53,
+  "passedTests": 53,
+  "requirements": [
+    {
+      "id": "א-01",
+      "category": "בחירת Use Case",
+      "requirement": "יש שם ברור לפרויקט",
+      "sourcePages": "1",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §1; תסריט דמו; B02"
+    },
+    {
+      "id": "א-02",
+      "category": "בחירת Use Case",
+      "requirement": "הבעיה העסקית מוגדרת",
+      "sourcePages": "1",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §1; תסריט דמו; B02"
+    },
+    {
+      "id": "א-03",
+      "category": "בחירת Use Case",
+      "requirement": "ברור מי המשתמשים",
+      "sourcePages": "1",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §1; תסריט דמו; B02"
+    },
+    {
+      "id": "א-04",
+      "category": "בחירת Use Case",
+      "requirement": "ברור מה התהליך הידני כיום",
+      "sourcePages": "1",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §1; תסריט דמו; B02"
+    },
+    {
+      "id": "א-05",
+      "category": "בחירת Use Case",
+      "requirement": "ברור למה AI מתאים כאן",
+      "sourcePages": "1",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §1; תסריט דמו; B02"
+    },
+    {
+      "id": "א-06",
+      "category": "בחירת Use Case",
+      "requirement": "ברור מה הערך העסקי",
+      "sourcePages": "1",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §1; תסריט דמו; B02"
+    },
+    {
+      "id": "א-07",
+      "category": "בחירת Use Case",
+      "requirement": "ברור מה ייחשב הצלחה",
+      "sourcePages": "1",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §1; תסריט דמו; B02"
+    },
+    {
+      "id": "ב-01",
+      "category": "אפיון תהליך קיים",
+      "requirement": "מיפוי התהליך הנוכחי",
+      "sourcePages": "1–2",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §1: תהליך קיים / טבלת נקודות"
+    },
+    {
+      "id": "ב-02",
+      "category": "אפיון תהליך קיים",
+      "requirement": "זיהוי מקום קלט משתמש",
+      "sourcePages": "1–2",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §1: תהליך קיים / טבלת נקודות"
+    },
+    {
+      "id": "ב-03",
+      "category": "אפיון תהליך קיים",
+      "requirement": "זיהוי נקודת החלטה",
+      "sourcePages": "1–2",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §1: תהליך קיים / טבלת נקודות"
+    },
+    {
+      "id": "ב-04",
+      "category": "אפיון תהליך קיים",
+      "requirement": "זיהוי הדאטה",
+      "sourcePages": "1–2",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §1: תהליך קיים / טבלת נקודות"
+    },
+    {
+      "id": "ב-05",
+      "category": "אפיון תהליך קיים",
+      "requirement": "זיהוי הפעולה",
+      "sourcePages": "1–2",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §1: תהליך קיים / טבלת נקודות"
+    },
+    {
+      "id": "ב-06",
+      "category": "אפיון תהליך קיים",
+      "requirement": "זיהוי הסיכון",
+      "sourcePages": "1–2",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §1: תהליך קיים / טבלת נקודות"
+    },
+    {
+      "id": "ב-07",
+      "category": "אפיון תהליך קיים",
+      "requirement": "זיהוי צוואר הבקבוק",
+      "sourcePages": "1–2",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §1: תהליך קיים / טבלת נקודות"
+    },
+    {
+      "id": "ג-01",
+      "category": "תכנון הפתרון",
+      "requirement": "תהליך AI חדש וברור",
+      "sourcePages": "2–3",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §2; architecture.svg; T01–T10; B02–B04"
+    },
+    {
+      "id": "ג-02",
+      "category": "תכנון הפתרון",
+      "requirement": "ברור מה AI עושה",
+      "sourcePages": "2–3",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §2; architecture.svg; T01–T10; B02–B04"
+    },
+    {
+      "id": "ג-03",
+      "category": "תכנון הפתרון",
+      "requirement": "ברור מה AI לא עושה",
+      "sourcePages": "2–3",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §2; architecture.svg; T01–T10; B02–B04"
+    },
+    {
+      "id": "ג-04",
+      "category": "תכנון הפתרון",
+      "requirement": "ברור מתי Human Review",
+      "sourcePages": "2–3",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §2; architecture.svg; T01–T10; B02–B04"
+    },
+    {
+      "id": "ג-05",
+      "category": "תכנון הפתרון",
+      "requirement": "ברור מתי fallback",
+      "sourcePages": "2–3",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §2; architecture.svg; T01–T10; B02–B04"
+    },
+    {
+      "id": "ג-06",
+      "category": "תכנון הפתרון",
+      "requirement": "ברור מה הפעולה הסופית",
+      "sourcePages": "2–3",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §2; architecture.svg; T01–T10; B02–B04"
+    },
+    {
+      "id": "ג-07",
+      "category": "תכנון הפתרון",
+      "requirement": "תרשים ארכיטקטורה",
+      "sourcePages": "2–3",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §2; architecture.svg; T01–T10; B02–B04"
+    },
+    {
+      "id": "ד-01",
+      "category": "ממשק משתמש",
+      "requirement": "ממשק משתמש בסיסי",
+      "sourcePages": "3",
+      "status": "מומש ונבדק",
+      "evidence": "public/index.html + app.js + style.css; B01–B08"
+    },
+    {
+      "id": "ד-02",
+      "category": "ממשק משתמש",
+      "requirement": "הזנת מידע",
+      "sourcePages": "3",
+      "status": "מומש ונבדק",
+      "evidence": "public/index.html + app.js + style.css; B01–B08"
+    },
+    {
+      "id": "ד-03",
+      "category": "ממשק משתמש",
+      "requirement": "הצגת תשובה וסטטוס",
+      "sourcePages": "3",
+      "status": "מומש ונבדק",
+      "evidence": "public/index.html + app.js + style.css; B01–B08"
+    },
+    {
+      "id": "ד-04",
+      "category": "ממשק משתמש",
+      "requirement": "טיפול בשגיאות",
+      "sourcePages": "3",
+      "status": "מומש ונבדק",
+      "evidence": "public/index.html + app.js + style.css; B01–B08"
+    },
+    {
+      "id": "ד-05",
+      "category": "ממשק משתמש",
+      "requirement": "חיווי טעינה",
+      "sourcePages": "3",
+      "status": "מומש ונבדק",
+      "evidence": "public/index.html + app.js + style.css; B01–B08"
+    },
+    {
+      "id": "ד-06",
+      "category": "ממשק משתמש",
+      "requirement": "ממשק שימושי",
+      "sourcePages": "3",
+      "status": "מומש ונבדק",
+      "evidence": "public/index.html + app.js + style.css; B01–B08"
+    },
+    {
+      "id": "ה-01",
+      "category": "Workflow",
+      "requirement": "Webhook מקבל קלט",
+      "sourcePages": "3–4",
+      "status": "מומש ונבדק",
+      "evidence": "POST /api/webhook; מימוש מקביל ל-n8n; T23–T24; L01–L02; B02"
+    },
+    {
+      "id": "ה-02",
+      "category": "Workflow",
+      "requirement": "עיבוד נתונים",
+      "sourcePages": "3–4",
+      "status": "מומש ונבדק",
+      "evidence": "POST /api/webhook; מימוש מקביל ל-n8n; T23–T24; L01–L02; B02"
+    },
+    {
+      "id": "ה-03",
+      "category": "Workflow",
+      "requirement": "לוגיקה ותנאים",
+      "sourcePages": "3–4",
+      "status": "מומש ונבדק",
+      "evidence": "POST /api/webhook; מימוש מקביל ל-n8n; T23–T24; L01–L02; B02"
+    },
+    {
+      "id": "ה-04",
+      "category": "Workflow",
+      "requirement": "חיבור ל-AI",
+      "sourcePages": "3–4",
+      "status": "מומש ונבדק",
+      "evidence": "POST /api/webhook; מימוש מקביל ל-n8n; T23–T24; L01–L02; B02"
+    },
+    {
+      "id": "ה-05",
+      "category": "Workflow",
+      "requirement": "שמירת תוצאה",
+      "sourcePages": "3–4",
+      "status": "מומש ונבדק",
+      "evidence": "POST /api/webhook; מימוש מקביל ל-n8n; T23–T24; L01–L02; B02"
+    },
+    {
+      "id": "ה-06",
+      "category": "Workflow",
+      "requirement": "תגובה למשתמש",
+      "sourcePages": "3–4",
+      "status": "מומש ונבדק",
+      "evidence": "POST /api/webhook; מימוש מקביל ל-n8n; T23–T24; L01–L02; B02"
+    },
+    {
+      "id": "ה-07",
+      "category": "Workflow",
+      "requirement": "עבודה מקצה לקצה",
+      "sourcePages": "3–4",
+      "status": "מומש ונבדק",
+      "evidence": "POST /api/webhook; מימוש מקביל ל-n8n; T23–T24; L01–L02; B02"
+    },
+    {
+      "id": "ו-01",
+      "category": "AI Agent / LLM",
+      "requirement": "שימוש ב-Agent או LLM",
+      "sourcePages": "4",
+      "status": "מומש ונבדק",
+      "evidence": "system-prompt.txt; schema + validateModel; L01–L02; T26–T27"
+    },
+    {
+      "id": "ו-02",
+      "category": "AI Agent / LLM",
+      "requirement": "System Prompt ברור",
+      "sourcePages": "4",
+      "status": "מומש ונבדק",
+      "evidence": "system-prompt.txt; schema + validateModel; L01–L02; T26–T27"
+    },
+    {
+      "id": "ו-03",
+      "category": "AI Agent / LLM",
+      "requirement": "תפקיד Agent",
+      "sourcePages": "4",
+      "status": "מומש ונבדק",
+      "evidence": "system-prompt.txt; schema + validateModel; L01–L02; T26–T27"
+    },
+    {
+      "id": "ו-04",
+      "category": "AI Agent / LLM",
+      "requirement": "מטרה",
+      "sourcePages": "4",
+      "status": "מומש ונבדק",
+      "evidence": "system-prompt.txt; schema + validateModel; L01–L02; T26–T27"
+    },
+    {
+      "id": "ו-05",
+      "category": "AI Agent / LLM",
+      "requirement": "Context",
+      "sourcePages": "4",
+      "status": "מומש ונבדק",
+      "evidence": "system-prompt.txt; schema + validateModel; L01–L02; T26–T27"
+    },
+    {
+      "id": "ו-06",
+      "category": "AI Agent / LLM",
+      "requirement": "Rules",
+      "sourcePages": "4",
+      "status": "מומש ונבדק",
+      "evidence": "system-prompt.txt; schema + validateModel; L01–L02; T26–T27"
+    },
+    {
+      "id": "ו-07",
+      "category": "AI Agent / LLM",
+      "requirement": "Output Format",
+      "sourcePages": "4",
+      "status": "מומש ונבדק",
+      "evidence": "system-prompt.txt; schema + validateModel; L01–L02; T26–T27"
+    },
+    {
+      "id": "ו-08",
+      "category": "AI Agent / LLM",
+      "requirement": "fallback",
+      "sourcePages": "4",
+      "status": "מומש ונבדק",
+      "evidence": "system-prompt.txt; schema + validateModel; L01–L02; T26–T27"
+    },
+    {
+      "id": "ו-09",
+      "category": "AI Agent / LLM",
+      "requirement": "מגבלת אורך, סגנון ושפה",
+      "sourcePages": "4",
+      "status": "מומש ונבדק",
+      "evidence": "system-prompt.txt; schema + validateModel; L01–L02; T26–T27"
+    },
+    {
+      "id": "ז-01",
+      "category": "דאטה / Knowledge Base",
+      "requirement": "מקור דאטה ברור",
+      "sourcePages": "4–5",
+      "status": "מומש ונבדק",
+      "evidence": "seed.json מסומן כנתוני דמו; KB מאושר; T02–T07; T25; T34; B03"
+    },
+    {
+      "id": "ז-02",
+      "category": "דאטה / Knowledge Base",
+      "requirement": "דאטה רלוונטי לבעיה",
+      "sourcePages": "4–5",
+      "status": "מומש ונבדק",
+      "evidence": "seed.json מסומן כנתוני דמו; KB מאושר; T02–T07; T25; T34; B03"
+    },
+    {
+      "id": "ז-03",
+      "category": "דאטה / Knowledge Base",
+      "requirement": "אי שליחת מידע מיותר ל-AI",
+      "sourcePages": "4–5",
+      "status": "מומש ונבדק",
+      "evidence": "seed.json מסומן כנתוני דמו; KB מאושר; T02–T07; T25; T34; B03"
+    },
+    {
+      "id": "ז-04",
+      "category": "דאטה / Knowledge Base",
+      "requirement": "אי שליחת secrets ומידע רגיש שאינו נחוץ",
+      "sourcePages": "4–5",
+      "status": "מומש ונבדק",
+      "evidence": "seed.json מסומן כנתוני דמו; KB מאושר; T02–T07; T25; T34; B03"
+    },
+    {
+      "id": "ז-05",
+      "category": "דאטה / Knowledge Base",
+      "requirement": "שליפת מידע רלוונטי",
+      "sourcePages": "4–5",
+      "status": "מומש ונבדק",
+      "evidence": "seed.json מסומן כנתוני דמו; KB מאושר; T02–T07; T25; T34; B03"
+    },
+    {
+      "id": "ז-06",
+      "category": "דאטה / Knowledge Base",
+      "requirement": "טיפול בהיעדר מידע",
+      "sourcePages": "4–5",
+      "status": "מומש ונבדק",
+      "evidence": "seed.json מסומן כנתוני דמו; KB מאושר; T02–T07; T25; T34; B03"
+    },
+    {
+      "id": "ח-01",
+      "category": "Automation / Tools / MCP",
+      "requirement": "המערכת מבצעת פעולה",
+      "sourcePages": "5–6",
+      "status": "מומש ונבדק",
+      "evidence": "tool-contracts.json; tool allowlist; T01; T19; T24; T27"
+    },
+    {
+      "id": "ח-02",
+      "category": "Automation / Tools / MCP",
+      "requirement": "פעולה מוגבלת וברורה",
+      "sourcePages": "5–6",
+      "status": "מומש ונבדק",
+      "evidence": "tool-contracts.json; tool allowlist; T01; T19; T24; T27"
+    },
+    {
+      "id": "ח-03",
+      "category": "Automation / Tools / MCP",
+      "requirement": "Tool Contract",
+      "sourcePages": "5–6",
+      "status": "מומש ונבדק",
+      "evidence": "tool-contracts.json; tool allowlist; T01; T19; T24; T27"
+    },
+    {
+      "id": "ח-04",
+      "category": "Automation / Tools / MCP",
+      "requirement": "מתי מפעילים כלי",
+      "sourcePages": "5–6",
+      "status": "מומש ונבדק",
+      "evidence": "tool-contracts.json; tool allowlist; T01; T19; T24; T27"
+    },
+    {
+      "id": "ח-05",
+      "category": "Automation / Tools / MCP",
+      "requirement": "פעולות אסורות לכלי",
+      "sourcePages": "5–6",
+      "status": "מומש ונבדק",
+      "evidence": "tool-contracts.json; tool allowlist; T01; T19; T24; T27"
+    },
+    {
+      "id": "ח-06",
+      "category": "Automation / Tools / MCP",
+      "requirement": "בדיקה נגד שימוש לא נכון",
+      "sourcePages": "5–6",
+      "status": "מומש ונבדק",
+      "evidence": "tool-contracts.json; tool allowlist; T01; T19; T24; T27"
+    },
+    {
+      "id": "ט-01",
+      "category": "Human-in-the-loop",
+      "requirement": "מתי AI פועל לבד",
+      "sourcePages": "6",
+      "status": "מומש ונבדק",
+      "evidence": "מרכז אישורים ואבטחה; T05–T10; T14–T19; B04–B06"
+    },
+    {
+      "id": "ט-02",
+      "category": "Human-in-the-loop",
+      "requirement": "מתי צריך אדם",
+      "sourcePages": "6",
+      "status": "מומש ונבדק",
+      "evidence": "מרכז אישורים ואבטחה; T05–T10; T14–T19; B04–B06"
+    },
+    {
+      "id": "ט-03",
+      "category": "Human-in-the-loop",
+      "requirement": "escalation path",
+      "sourcePages": "6",
+      "status": "מומש ונבדק",
+      "evidence": "מרכז אישורים ואבטחה; T05–T10; T14–T19; B04–B06"
+    },
+    {
+      "id": "ט-04",
+      "category": "Human-in-the-loop",
+      "requirement": "מצב Review",
+      "sourcePages": "6",
+      "status": "מומש ונבדק",
+      "evidence": "מרכז אישורים ואבטחה; T05–T10; T14–T19; B04–B06"
+    },
+    {
+      "id": "ט-05",
+      "category": "Human-in-the-loop",
+      "requirement": "מקרי סירוב",
+      "sourcePages": "6",
+      "status": "מומש ונבדק",
+      "evidence": "מרכז אישורים ואבטחה; T05–T10; T14–T19; B04–B06"
+    },
+    {
+      "id": "ט-06",
+      "category": "Human-in-the-loop",
+      "requirement": "לוג החלטות",
+      "sourcePages": "6",
+      "status": "מומש ונבדק",
+      "evidence": "מרכז אישורים ואבטחה; T05–T10; T14–T19; B04–B06"
+    },
+    {
+      "id": "י-01",
+      "category": "Guardrails",
+      "requirement": "fallback",
+      "sourcePages": "6",
+      "status": "מומש ונבדק",
+      "evidence": "Extractive quotes + JSON schema + מקור מדויק; T14; T25–T27; T31; System Prompt בשרת בלבד"
+    },
+    {
+      "id": "י-02",
+      "category": "Guardrails",
+      "requirement": "מניעת hallucination",
+      "sourcePages": "6",
+      "status": "מומש ונבדק",
+      "evidence": "Extractive quotes + JSON schema + מקור מדויק; T14; T25–T27; T31; System Prompt בשרת בלבד"
+    },
+    {
+      "id": "י-03",
+      "category": "Guardrails",
+      "requirement": "הגבלת תשובה",
+      "sourcePages": "6",
+      "status": "מומש ונבדק",
+      "evidence": "Extractive quotes + JSON schema + מקור מדויק; T14; T25–T27; T31; System Prompt בשרת בלבד"
+    },
+    {
+      "id": "י-04",
+      "category": "Guardrails",
+      "requirement": "שאלה ללא מידע",
+      "sourcePages": "6",
+      "status": "מומש ונבדק",
+      "evidence": "Extractive quotes + JSON schema + מקור מדויק; T14; T25–T27; T31; System Prompt בשרת בלבד"
+    },
+    {
+      "id": "י-05",
+      "category": "Guardrails",
+      "requirement": "Prompt Injection",
+      "sourcePages": "6",
+      "status": "מומש ונבדק",
+      "evidence": "Extractive quotes + JSON schema + מקור מדויק; T14; T25–T27; T31; System Prompt בשרת בלבד"
+    },
+    {
+      "id": "י-06",
+      "category": "Guardrails",
+      "requirement": "הפרדת input מהוראות system",
+      "sourcePages": "6",
+      "status": "מומש ונבדק",
+      "evidence": "Extractive quotes + JSON schema + מקור מדויק; T14; T25–T27; T31; System Prompt בשרת בלבד"
+    },
+    {
+      "id": "י-07",
+      "category": "Guardrails",
+      "requirement": "אי חשיפת prompt פנימי",
+      "sourcePages": "6",
+      "status": "מומש ונבדק",
+      "evidence": "Extractive quotes + JSON schema + מקור מדויק; T14; T25–T27; T31; System Prompt בשרת בלבד"
+    },
+    {
+      "id": "י-08",
+      "category": "Guardrails",
+      "requirement": "אי חשיפת לוגים או מידע פנימי",
+      "sourcePages": "6",
+      "status": "מומש ונבדק",
+      "evidence": "Extractive quotes + JSON schema + מקור מדויק; T14; T25–T27; T31; System Prompt בשרת בלבד"
+    },
+    {
+      "id": "יא-01",
+      "category": "Security / Zero Trust",
+      "requirement": "אין API keys בקוד",
+      "sourcePages": "7",
+      "status": "מומש ונבדק",
+      "evidence": "T11–T13; T19–T24; T28–T29; T34; gateway HMAC; security-report.md"
+    },
+    {
+      "id": "יא-02",
+      "category": "Security / Zero Trust",
+      "requirement": "אין secrets ב-frontend",
+      "sourcePages": "7",
+      "status": "מומש ונבדק",
+      "evidence": "T11–T13; T19–T24; T28–T29; T34; gateway HMAC; security-report.md"
+    },
+    {
+      "id": "יא-03",
+      "category": "Security / Zero Trust",
+      "requirement": "validation לקלט",
+      "sourcePages": "7",
+      "status": "מומש ונבדק",
+      "evidence": "T11–T13; T19–T24; T28–T29; T34; gateway HMAC; security-report.md"
+    },
+    {
+      "id": "יא-04",
+      "category": "Security / Zero Trust",
+      "requirement": "הגבלת אורך קלט",
+      "sourcePages": "7",
+      "status": "מומש ונבדק",
+      "evidence": "T11–T13; T19–T24; T28–T29; T34; gateway HMAC; security-report.md"
+    },
+    {
+      "id": "יא-05",
+      "category": "Security / Zero Trust",
+      "requirement": "אי שימוש ב-innerHTML עם קלט משתמש",
+      "sourcePages": "7",
+      "status": "מומש ונבדק",
+      "evidence": "T11–T13; T19–T24; T28–T29; T34; gateway HMAC; security-report.md"
+    },
+    {
+      "id": "יא-06",
+      "category": "Security / Zero Trust",
+      "requirement": "הרשאות מינימליות לכל tool",
+      "sourcePages": "7",
+      "status": "מומש ונבדק",
+      "evidence": "T11–T13; T19–T24; T28–T29; T34; gateway HMAC; security-report.md"
+    },
+    {
+      "id": "יא-07",
+      "category": "Security / Zero Trust",
+      "requirement": "אין Agent עם הרשאות מיותרות",
+      "sourcePages": "7",
+      "status": "מומש ונבדק",
+      "evidence": "T11–T13; T19–T24; T28–T29; T34; gateway HMAC; security-report.md"
+    },
+    {
+      "id": "יא-08",
+      "category": "Security / Zero Trust",
+      "requirement": "לוגים לפעולות משמעותיות",
+      "sourcePages": "7",
+      "status": "מומש ונבדק",
+      "evidence": "T11–T13; T19–T24; T28–T29; T34; gateway HMAC; security-report.md"
+    },
+    {
+      "id": "יא-09",
+      "category": "Security / Zero Trust",
+      "requirement": "חשיבה על Webhook URL חשוף",
+      "sourcePages": "7",
+      "status": "מומש ונבדק",
+      "evidence": "T11–T13; T19–T24; T28–T29; T34; gateway HMAC; security-report.md"
+    },
+    {
+      "id": "יב-01",
+      "category": "Evaluation / Testing",
+      "requirement": "לפחות 10–15 בדיקות",
+      "sourcePages": "7",
+      "status": "מומש ונבדק",
+      "evidence": "test-results.json + live-test-results.json + browser-test-results.json; טבלת הבדיקות בנספח"
+    },
+    {
+      "id": "יב-02",
+      "category": "Evaluation / Testing",
+      "requirement": "Expected Result",
+      "sourcePages": "7",
+      "status": "מומש ונבדק",
+      "evidence": "test-results.json + live-test-results.json + browser-test-results.json; טבלת הבדיקות בנספח"
+    },
+    {
+      "id": "יב-03",
+      "category": "Evaluation / Testing",
+      "requirement": "Actual Result",
+      "sourcePages": "7",
+      "status": "מומש ונבדק",
+      "evidence": "test-results.json + live-test-results.json + browser-test-results.json; טבלת הבדיקות בנספח"
+    },
+    {
+      "id": "יב-04",
+      "category": "Evaluation / Testing",
+      "requirement": "Pass / Fail",
+      "sourcePages": "7",
+      "status": "מומש ונבדק",
+      "evidence": "test-results.json + live-test-results.json + browser-test-results.json; טבלת הבדיקות בנספח"
+    },
+    {
+      "id": "יב-05",
+      "category": "Evaluation / Testing",
+      "requirement": "Error Type",
+      "sourcePages": "7",
+      "status": "מומש ונבדק",
+      "evidence": "test-results.json + live-test-results.json + browser-test-results.json; טבלת הבדיקות בנספח"
+    },
+    {
+      "id": "יב-06",
+      "category": "Evaluation / Testing",
+      "requirement": "בדיקת Prompt Injection",
+      "sourcePages": "7",
+      "status": "מומש ונבדק",
+      "evidence": "test-results.json + live-test-results.json + browser-test-results.json; טבלת הבדיקות בנספח"
+    },
+    {
+      "id": "יב-07",
+      "category": "Evaluation / Testing",
+      "requirement": "בדיקת fallback",
+      "sourcePages": "7",
+      "status": "מומש ונבדק",
+      "evidence": "test-results.json + live-test-results.json + browser-test-results.json; טבלת הבדיקות בנספח"
+    },
+    {
+      "id": "יב-08",
+      "category": "Evaluation / Testing",
+      "requirement": "בדיקת tool misuse",
+      "sourcePages": "7",
+      "status": "מומש ונבדק",
+      "evidence": "test-results.json + live-test-results.json + browser-test-results.json; טבלת הבדיקות בנספח"
+    },
+    {
+      "id": "יב-09",
+      "category": "Evaluation / Testing",
+      "requirement": "בדיקת input לא תקין",
+      "sourcePages": "7",
+      "status": "מומש ונבדק",
+      "evidence": "test-results.json + live-test-results.json + browser-test-results.json; טבלת הבדיקות בנספח"
+    },
+    {
+      "id": "יג-01",
+      "category": "Observability / Logs / Dashboard",
+      "requirement": "כל הרצה נשמרת בלוג",
+      "sourcePages": "7–8",
+      "status": "מומש ונבדק",
+      "evidence": "runs/events/audit; T29–T30; T33; B06; screenshots/dashboard.png"
+    },
+    {
+      "id": "יג-02",
+      "category": "Observability / Logs / Dashboard",
+      "requirement": "runId או timestamp",
+      "sourcePages": "7–8",
+      "status": "מומש ונבדק",
+      "evidence": "runs/events/audit; T29–T30; T33; B06; screenshots/dashboard.png"
+    },
+    {
+      "id": "יג-03",
+      "category": "Observability / Logs / Dashboard",
+      "requirement": "סטטוס הרצה",
+      "sourcePages": "7–8",
+      "status": "מומש ונבדק",
+      "evidence": "runs/events/audit; T29–T30; T33; B06; screenshots/dashboard.png"
+    },
+    {
+      "id": "יג-04",
+      "category": "Observability / Logs / Dashboard",
+      "requirement": "האם היה fallback",
+      "sourcePages": "7–8",
+      "status": "מומש ונבדק",
+      "evidence": "runs/events/audit; T29–T30; T33; B06; screenshots/dashboard.png"
+    },
+    {
+      "id": "יג-05",
+      "category": "Observability / Logs / Dashboard",
+      "requirement": "האם היה Human Review",
+      "sourcePages": "7–8",
+      "status": "מומש ונבדק",
+      "evidence": "runs/events/audit; T29–T30; T33; B06; screenshots/dashboard.png"
+    },
+    {
+      "id": "יג-06",
+      "category": "Observability / Logs / Dashboard",
+      "requirement": "האם הופעל Tool",
+      "sourcePages": "7–8",
+      "status": "מומש ונבדק",
+      "evidence": "runs/events/audit; T29–T30; T33; B06; screenshots/dashboard.png"
+    },
+    {
+      "id": "יג-07",
+      "category": "Observability / Logs / Dashboard",
+      "requirement": "errorType",
+      "sourcePages": "7–8",
+      "status": "מומש ונבדק",
+      "evidence": "runs/events/audit; T29–T30; T33; B06; screenshots/dashboard.png"
+    },
+    {
+      "id": "יג-08",
+      "category": "Observability / Logs / Dashboard",
+      "requirement": "Dashboard בסיסי",
+      "sourcePages": "7–8",
+      "status": "מומש ונבדק",
+      "evidence": "runs/events/audit; T29–T30; T33; B06; screenshots/dashboard.png"
+    },
+    {
+      "id": "יד-01",
+      "category": "Production Rollout",
+      "requirement": "הסבר עלייה לפיילוט",
+      "sourcePages": "8",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §4; תוכנית מתועדת ולא טענה שהמערכת מוסמכת ל-Production"
+    },
+    {
+      "id": "יד-02",
+      "category": "Production Rollout",
+      "requirement": "owner עסקי",
+      "sourcePages": "8",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §4; תוכנית מתועדת ולא טענה שהמערכת מוסמכת ל-Production"
+    },
+    {
+      "id": "יד-03",
+      "category": "Production Rollout",
+      "requirement": "owner טכני",
+      "sourcePages": "8",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §4; תוכנית מתועדת ולא טענה שהמערכת מוסמכת ל-Production"
+    },
+    {
+      "id": "יד-04",
+      "category": "Production Rollout",
+      "requirement": "סיכונים ובקרות",
+      "sourcePages": "8",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §4; תוכנית מתועדת ולא טענה שהמערכת מוסמכת ל-Production"
+    },
+    {
+      "id": "יד-05",
+      "category": "Production Rollout",
+      "requirement": "תנאי Go / No-Go",
+      "sourcePages": "8",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §4; תוכנית מתועדת ולא טענה שהמערכת מוסמכת ל-Production"
+    },
+    {
+      "id": "יד-06",
+      "category": "Production Rollout",
+      "requirement": "מדדי הצלחה",
+      "sourcePages": "8",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §4; תוכנית מתועדת ולא טענה שהמערכת מוסמכת ל-Production"
+    },
+    {
+      "id": "יד-07",
+      "category": "Production Rollout",
+      "requirement": "שיפור עתידי",
+      "sourcePages": "8",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה §4; תוכנית מתועדת ולא טענה שהמערכת מוסמכת ל-Production"
+    },
+    {
+      "id": "9-01",
+      "category": "Sales Call Follow-up Assistant",
+      "requirement": "טקסט חופשי מהשיחה",
+      "sourcePages": "13",
+      "status": "מומש ונבדק",
+      "evidence": "T01; T09–T10; L01–L02; B02–B04; שליחה מוגבלת לייצוא טיוטה מאושרת"
+    },
+    {
+      "id": "9-02",
+      "category": "Sales Call Follow-up Assistant",
+      "requirement": "סיכום",
+      "sourcePages": "13",
+      "status": "מומש ונבדק",
+      "evidence": "T01; T09–T10; L01–L02; B02–B04; שליחה מוגבלת לייצוא טיוטה מאושרת"
+    },
+    {
+      "id": "9-03",
+      "category": "Sales Call Follow-up Assistant",
+      "requirement": "זיהוי next steps",
+      "sourcePages": "13",
+      "status": "מומש ונבדק",
+      "evidence": "T01; T09–T10; L01–L02; B02–B04; שליחה מוגבלת לייצוא טיוטה מאושרת"
+    },
+    {
+      "id": "9-04",
+      "category": "Sales Call Follow-up Assistant",
+      "requirement": "יצירת משימה",
+      "sourcePages": "13",
+      "status": "מומש ונבדק",
+      "evidence": "T01; T09–T10; L01–L02; B02–B04; שליחה מוגבלת לייצוא טיוטה מאושרת"
+    },
+    {
+      "id": "9-05",
+      "category": "Sales Call Follow-up Assistant",
+      "requirement": "ניסוח מייל טיוטה",
+      "sourcePages": "13",
+      "status": "מומש ונבדק",
+      "evidence": "T01; T09–T10; L01–L02; B02–B04; שליחה מוגבלת לייצוא טיוטה מאושרת"
+    },
+    {
+      "id": "9-06",
+      "category": "Sales Call Follow-up Assistant",
+      "requirement": "אישור אדם לפני שליחה",
+      "sourcePages": "13",
+      "status": "מומש ונבדק",
+      "evidence": "T01; T09–T10; L01–L02; B02–B04; שליחה מוגבלת לייצוא טיוטה מאושרת"
+    },
+    {
+      "id": "10-01",
+      "category": "Knowledge Base Improvement System",
+      "requirement": "fallback detection",
+      "sourcePages": "13–14",
+      "status": "מומש ונבדק",
+      "evidence": "T02–T07; T30; B03; topic grouping + count-based priority"
+    },
+    {
+      "id": "10-02",
+      "category": "Knowledge Base Improvement System",
+      "requirement": "ticket creation",
+      "sourcePages": "13–14",
+      "status": "מומש ונבדק",
+      "evidence": "T02–T07; T30; B03; topic grouping + count-based priority"
+    },
+    {
+      "id": "10-03",
+      "category": "Knowledge Base Improvement System",
+      "requirement": "topic clustering",
+      "sourcePages": "13–14",
+      "status": "מומש ונבדק",
+      "evidence": "T02–T07; T30; B03; topic grouping + count-based priority"
+    },
+    {
+      "id": "10-04",
+      "category": "Knowledge Base Improvement System",
+      "requirement": "priority",
+      "sourcePages": "13–14",
+      "status": "מומש ונבדק",
+      "evidence": "T02–T07; T30; B03; topic grouping + count-based priority"
+    },
+    {
+      "id": "10-05",
+      "category": "Knowledge Base Improvement System",
+      "requirement": "dashboard missing knowledge",
+      "sourcePages": "13–14",
+      "status": "מומש ונבדק",
+      "evidence": "T02–T07; T30; B03; topic grouping + count-based priority"
+    },
+    {
+      "id": "10-06",
+      "category": "Knowledge Base Improvement System",
+      "requirement": "human approval לעדכון KB",
+      "sourcePages": "13–14",
+      "status": "מומש ונבדק",
+      "evidence": "T02–T07; T30; B03; topic grouping + count-based priority"
+    },
+    {
+      "id": "S-01",
+      "category": "תוצרים להגשה",
+      "requirement": "דמו עובד Input → Workflow → AI → Decision/Action → Log → Output",
+      "sourcePages": "8–10",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה, נספח אימות, DEMO.md, קוד ולינק חי"
+    },
+    {
+      "id": "S-02",
+      "category": "תוצרים להגשה",
+      "requirement": "מסמך קצר עם 12 הנושאים הנדרשים",
+      "sourcePages": "8–10",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה, נספח אימות, DEMO.md, קוד ולינק חי"
+    },
+    {
+      "id": "S-03",
+      "category": "תוצרים להגשה",
+      "requirement": "הצגה קצרה עם 9 הנושאים הנדרשים",
+      "sourcePages": "8–10",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה, נספח אימות, DEMO.md, קוד ולינק חי"
+    },
+    {
+      "id": "S-04",
+      "category": "תוצרים להגשה",
+      "requirement": "טבלת בדיקות כולל Fix Needed",
+      "sourcePages": "8–10",
+      "status": "תועד ונבדק במסמך",
+      "evidence": "מסמך הגשה, נספח אימות, DEMO.md, קוד ולינק חי"
+    }
+  ],
+  "extensions": [
+    {
+      "id": "SEC-01",
+      "requirement": "AES-256-GCM לנתונים רגישים, פלטי AI, ידע וצילומים",
+      "status": "מומש ונבדק",
+      "evidence": "T28; T32; B05"
+    },
+    {
+      "id": "SEC-02",
+      "requirement": "מניעת SQL injection באמצעות prepared statements + חסימת תבניות",
+      "status": "מומש ונבדק",
+      "evidence": "T18; server.mjs"
+    },
+    {
+      "id": "SEC-03",
+      "requirement": "הסגר חשבון מזוהה + ביטול סשנים",
+      "status": "מומש ונבדק",
+      "evidence": "T14–T15; B05"
+    },
+    {
+      "id": "SEC-04",
+      "requirement": "שיוך התראה והסלמה היררכית",
+      "status": "מומש ונבדק",
+      "evidence": "T16–T17; B05; מרכז התראות פנימי"
+    },
+    {
+      "id": "SEC-05",
+      "requirement": "צילום חלון האפליקציה ושמירת ראיה מוצפנת",
+      "status": "מומש ונבדק",
+      "evidence": "T32; B05; צילום תלוי בדפדפן ואינו צילום מחשב המשתמש"
+    },
+    {
+      "id": "SEC-06",
+      "requirement": "לוגים מלאים לפי שלבים + HMAC integrity + ייצוא",
+      "status": "מומש ונבדק",
+      "evidence": "T29; T33; B06"
+    },
+    {
+      "id": "DEP-01",
+      "requirement": "לינק Vercel חי + AI + שמירה ואישורים מקצה לקצה",
+      "status": "מומש ונבדק",
+      "evidence": "B01–B08; HTTPS; גשר פרטי פעיל"
+    },
+    {
+      "id": "PROD-01",
+      "requirement": "התראות חיצוניות לכתובות ארגוניות",
+      "status": "ממתין להגדרת יעדים",
+      "evidence": "לא נמסרו כתובות; התראות פנימיות עובדות"
+    },
+    {
+      "id": "PROD-02",
+      "requirement": "SSO/MFA וזהויות ארגוניות אישיות",
+      "status": "מתוכנן ל-Production",
+      "evidence": "בדמו שני חשבונות מבודדים; אין חיבור IdP"
+    },
+    {
+      "id": "PROD-03",
+      "requirement": "KMS/HSM, WORM, בדיקת חדירה ותשתית זמינה תמיד",
+      "status": "מתוכנן ל-Production",
+      "evidence": "תוכנית rollout וסיכונים; לא הוצגה הסמכה או הבטחת מניעת כל תקיפה"
+    }
+  ],
+  "liveUrl": "https://sales-knowledge-ofer.vercel.app"
+}

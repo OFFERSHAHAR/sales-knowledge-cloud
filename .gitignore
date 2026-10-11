@@ -1,0 +1,8 @@
+node_modules/
+data/
+.env*
+.vercel/
+ACCESS-CODES.txt
+bridge/bridge-token.txt
+public/bridge/bridge-token.txt
+docs/assignment-source.pdf

@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>מעגל מכירות | Sales & Knowledge Agent</title><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/style.css"><script src="/capture.js" defer></script><script src="/app.js" defer></script></head>
+<body>
+<a class="skip" href="#main">דלג לתוכן</a>
+<div id="login" class="login-shell">
+  <section class="login-copy"><span class="wordmark">מעגל מכירות <b>↗</b></span><h1>כל שיחה.<br>המשך ברור.<br>ידע שנשאר.</h1><p>סוכן שמחבר שיחות מכירה, אישור אנושי ובסיס ידע מתפתח.</p><div class="login-flow">שיחה ← סיכום ← אישור ← מעקב ← ידע</div><small>פרויקט גמר משולב 9 + 10 · מגיש: עופר</small></section>
+  <section class="login-panel"><h2>כניסה לסביבת העבודה</h2><p>הכניסה מיועדת לצוות מורשה בלבד. קוד הגישה נמסר בנפרד ונשמר בשרת.</p><form id="loginForm"><label for="role">תפקיד</label><select id="role"><option value="reviewer">מנהל מכירות וידע</option><option value="analyst">איש מכירות</option></select><label for="accessKey">קוד גישה אישי</label><input id="accessKey" type="password" autocomplete="current-password" required maxlength="100" dir="ltr" data-html2canvas-ignore><button type="submit" class="primary">כניסה מאובטחת <span aria-hidden="true">←</span></button></form><p id="loginError" role="alert" class="error"></p><p><a href="/guide.html">מדריך לממשק והכנה להצגה ←</a></p><div class="notice">דמו לימודי עם נתוני מוצרים בדיוניים. ידע מאושר ואישורי אדם. מיילים מיוצאים כטיוטה לאחר אישור. כל משתתף מקבל קוד גישה אישי.</div></section>
+</div>
+<div id="shell" hidden>
+  <aside class="sidebar"><a class="wordmark" href="/">מעגל מכירות <b>↗</b></a><p class="sidebar-desc">מרחב עבודה למכירות ולידע</p><nav aria-label="ניווט ראשי"><button data-page="sales" class="selected">↗ <span>שיחת מכירה</span></button><button data-page="knowledge">▤ <span>בסיס ידע ופערים</span></button><button data-page="approvals">✓ <span>מרכז אישורים</span><span id="pendingCount" class="count">0</span></button><button data-page="dashboard">◫ <span>דשבורד</span></button><button data-page="security">◇ <span>אבטחה והתראות</span></button><button data-page="logs">≡ <span>יומן ביקורת</span></button><button data-page="checklist">☑ <span>צ׳קליסט והגשה</span></button><button data-page="model" id="modelNav" hidden>⚙ <span>חיבור מודל</span></button><a class="guide-nav" href="/guide.html" target="_blank" rel="noopener">? <span>מדריך להצגה</span></a></nav><div class="sidebar-bottom"><span class="live-dot"></span> מחובר לענן<p>מגיש: עופר<br>פרויקט גמר · רעיונות 9 + 10</p><button id="logout" class="outline">יציאה</button></div></aside>
+  <main id="main" tabindex="-1"><header class="topbar"><span id="breadcrumb">סביבת העבודה / שיחת מכירה</span><div><span class="tag">נתוני דמו</span> <span id="identity"></span> <button id="refresh" class="quiet" aria-label="רענון נתונים">↻</button></div></header><div id="globalStatus" role="status" aria-live="polite"></div><div id="page"></div><footer>מעגל מכירות · AI מציע, אדם מאשר · מגיש: עופר</footer></main>
+</div>
+<dialog id="detailDialog"><form method="dialog"><button class="close" aria-label="סגירה">×</button></form><div id="dialogBody"></div></dialog>
+</body></html>
+

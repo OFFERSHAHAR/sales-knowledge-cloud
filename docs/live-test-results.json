@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-10-04T15:54:08.129Z",
+  "results": [
+    {
+      "testId": "L01",
+      "input": "לקוח הדמו מחפש פתרון לצוות של חמישה אנשי מכירות. הוא ביקש לדעת מה מחיר חבילת הבסיס. סוכם לתאם פגישת המשך ולהכין הצעה לבדיקה. הלקוח מבקש שאחזור אליו אחרי הפגישה.",
+      "expected": "Real Ollama → grounded summary → draft/task → log; grounded KB answer",
+      "actual": {
+        "runId": "RUN-5ffa233b-1d33-434b-9335-afad746a7088",
+        "timestamp": "2026-10-04T15:54:04.725Z",
+        "status": "review",
+        "fallback": false,
+        "review": true,
+        "tool": true,
+        "errorType": null,
+        "engine": "ollama/gemma4:latest",
+        "durationMs": 2041,
+        "mode": "sales",
+        "actor": "analyst",
+        "userId": "sales-demo",
+        "risk": "low",
+        "escalation": "מנהל מכירות",
+        "answers": [
+          {
+            "question": "מה מחיר חבילת הבסיס?",
+            "answer": "נתון דמו בלבד: חבילת הבסיס עולה 490 ש״ח לחודש לפני מע״מ. המחיר אינו הצעה מסחרית אמיתית.",
+            "source": "קטלוג דמו 1.0 / מחירון, סעיף 1",
+            "sourceId": "KB-001",
+            "version": 1,
+            "grounded": true
+          }
+        ],
+        "ticketIds": [],
+        "taskIds": [
+          "TASK-01ae616a-1228-4882-9704-5cf88f129c8e",
+          "TASK-3749efd1-cfc1-46ef-b2e9-16356e422475"
+        ],
+        "summary": [
+          "לקוח הדמו מחפש פתרון לצוות של חמישה אנשי מכירות.",
+          "הוא ביקש לדעת מה מחיר חבילת הבסיס.",
+          "סוכם לתאם פגישת המשך ולהכין הצעה לבדיקה."
+        ],
+        "needs": [
+          "לקוח הדמו מחפש פתרון לצוות של חמישה אנשי מכירות."
+        ],
+        "nextSteps": [
+          {
+            "title": "לתאם פגישת המשך",
+            "evidence": "סוכם לתאם פגישת המשך ולהכין הצעה לבדיקה."
+          },
+          {
+            "title": "לחזור ללקוח",
+            "evidence": "הלקוח מבקש שאחזור אליו אחרי הפגישה."
+          }
+        ],
+        "draftId": "DRAFT-b4e5bd66-6782-4c97-acde-ca71c267e0c9"
+      },
+      "pass": true,
+      "errorType": null,
+      "fixNeeded": "לא",
+      "provider": "ollama/gemma4:latest"
+    },
+    {
+      "testId": "L02",
+      "input": "לקוח הדמו מבקש לחבר את המוצר ל-Salesforce. הוא ביקש לדעת האם יש אינטגרציה ל-Salesforce. סוכם לברר את נושא החיבור ולחזור ללקוח עם תשובה מאושרת. הוא מעוניין בהדגמה בשיחה הבאה.",
+      "expected": "Real Ollama → grounded summary → draft/task → log; fallback + ticket",
+      "actual": {
+        "runId": "RUN-6700ccd9-e6f9-407d-9ec7-fe67bf4527e3",
+        "timestamp": "2026-10-04T15:54:06.768Z",
+        "status": "review",
+        "fallback": true,
+        "review": true,
+        "tool": true,
+        "errorType": null,
+        "engine": "ollama/gemma4:latest",
+        "durationMs": 1360,
+        "mode": "sales",
+        "actor": "analyst",
+        "userId": "sales-demo",
+        "risk": "low",
+        "escalation": "מנהל מכירות",
+        "answers": [
+          {
+            "question": "האם יש אינטגרציה ל-Salesforce?",
+            "answer": "אין מידע מאושר לשאלה זו. נפתח כרטיס ידע חסר לבדיקה אנושית.",
+            "source": null,
+            "grounded": false
+          }
+        ],
+        "ticketIds": [
+          "GAP-645460be-a20d-4d4e-99e5-511826c6c8e6"
+        ],
+        "taskIds": [
+          "TASK-621d20da-4fad-4a10-9683-764a289d5604"
+        ],
+        "summary": [
+          "לקוח הדמו מבקש לחבר את המוצר ל-Salesforce. הוא ביקש לדעת האם יש אינטגרציה ל-Salesforce."
+        ],
+        "needs": [
+          "לקוח הדמו מבקש לחבר את המוצר ל-Salesforce."
+        ],
+        "nextSteps": [
+          {
+            "title": "לחזור ללקוח",
+            "evidence": "סוכם לברר את נושא החיבור ולחזור ללקוח עם תשובה מאושרת."
+          }
+        ],
+        "draftId": "DRAFT-65b3d623-60e0-444a-9b72-dd70f3b788e0"
+      },
+      "pass": true,
+      "errorType": null,
+      "fixNeeded": "לא",
+      "provider": "ollama/gemma4:latest"
+    }
+  ]
+}

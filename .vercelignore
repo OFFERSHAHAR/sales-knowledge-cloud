@@ -1,0 +1,11 @@
+/data
+/tests
+/docs
+node_modules
+/scripts
+/bridge
+server.mjs
+ACCESS-CODES.txt
+.env*
+PRODUCT.md
+DESIGN.md

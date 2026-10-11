@@ -1,0 +1,115 @@
+{
+  "timestamp": "2026-10-04T15:56:37.081Z",
+  "base": "https://sales-knowledge-ofer.vercel.app",
+  "results": [
+    {
+      "testId": "B01",
+      "input": "Browser/live UI",
+      "expected": "HTTPS, RTL, login and secure cookies",
+      "actual": {
+        "https": true,
+        "rtl": true,
+        "secure": true,
+        "httpOnly": true
+      },
+      "pass": true,
+      "errorType": null,
+      "fixNeeded": "לא"
+    },
+    {
+      "testId": "B02",
+      "input": "Browser/live UI",
+      "expected": "Real sales workflow on deployed URL produces draft and knowledge gap",
+      "actual": {
+        "realLLM": true,
+        "draft": true,
+        "gap": true
+      },
+      "pass": true,
+      "errorType": null,
+      "fixNeeded": "לא"
+    },
+    {
+      "testId": "B03",
+      "input": "Browser/live UI",
+      "expected": "Knowledge proposal requires human approval and becomes retrievable",
+      "actual": {
+        "humanApproved": true,
+        "newAnswerGrounded": true
+      },
+      "pass": true,
+      "errorType": null,
+      "fixNeeded": "לא"
+    },
+    {
+      "testId": "B04",
+      "input": "Browser/live UI",
+      "expected": "Approved email draft is exportable after human approval",
+      "actual": {
+        "exported": true,
+        "sent": false
+      },
+      "pass": true,
+      "errorType": null,
+      "fixNeeded": "לא"
+    },
+    {
+      "testId": "B05",
+      "input": "Browser/live UI",
+      "expected": "Injection is blocked, user quarantined, browser screenshot encrypted and attached",
+      "actual": {
+        "blocked": true,
+        "quarantined": true,
+        "screenshotSaved": true,
+        "releasedByReviewer": true
+      },
+      "pass": true,
+      "errorType": null,
+      "fixNeeded": "לא"
+    },
+    {
+      "testId": "B06",
+      "input": "Browser/live UI",
+      "expected": "Dashboard and full log export visible on live deployment",
+      "actual": {
+        "logs": 108,
+        "integrity": true,
+        "screenshotEvent": true
+      },
+      "pass": true,
+      "errorType": null,
+      "fixNeeded": "לא"
+    },
+    {
+      "testId": "B07",
+      "input": "Browser/live UI",
+      "expected": "Mobile viewport has no horizontal document overflow",
+      "actual": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "pass": true,
+      "errorType": null,
+      "fixNeeded": "לא"
+    },
+    {
+      "testId": "B08",
+      "input": "Browser/live UI",
+      "expected": "Frontend runtime contains no unhandled errors",
+      "actual": {
+        "unhandledRuntimeErrors": 0,
+        "verification": "Live in-app browser login and runtime console inspected; dev.logs(error)=[]",
+        "priorHarnessIssue": "Previous test counted expected bootstrap HTTP 401 and missing favicon as runtime errors. Expected 401 is excluded; explicit favicon added and deployed."
+      },
+      "pass": true,
+      "errorType": null,
+      "fixNeeded": "תוקן: favicon מפורש וסינון HTTP 401 צפוי; כניסת מנהל וריצת ממשק אומתו בדפדפן החי."
+    }
+  ],
+  "finalVerification": "Cua in-app browser inspection after deployed favicon/session fixes; existing first seven end-to-end checks passed on live Vercel.",
+  "expectedHttpWarnings": [
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 401 ()"
+  ],
+  "errors": []
+}

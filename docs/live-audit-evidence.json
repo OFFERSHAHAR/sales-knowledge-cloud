@@ -1,0 +1,35 @@
+{
+  "exportedAt": "2026-10-04T15:56:36.706Z",
+  "integrity": {
+    "valid": true,
+    "count": 108,
+    "lastHash": "e7a62e434cf8b397f9aabfb6192ce6f427527dce9b6aa0c524fd058501e5f521"
+  },
+  "eventCount": 108,
+  "stages": [
+    "/api/session",
+    "response",
+    "login",
+    "input",
+    "validation",
+    "tool_request",
+    "kb_search",
+    "tool_result",
+    "create_missing_ticket",
+    "llm_request",
+    "llm_output",
+    "grounding",
+    "create_sales_task",
+    "create_email_draft",
+    "propose_knowledge",
+    "approve_knowledge",
+    "approve_draft",
+    "knowledge_proposal_input",
+    "export_approved_draft",
+    "workflow_failed",
+    "security_alert",
+    "browser_screenshot",
+    "security_release",
+    "export_full_audit"
+  ]
+}
